@@ -20,25 +20,15 @@
 
             <img src="./2.PNG" alt="" class="hidden  " id="pic-2">
 
-            <img src="./3.jpg" alt=""  class="hidden " id="pic-3">
-
-            <img src="./4.jpg" alt=""  class="hidden " id="pic-4">
-
-            <img src="./5.jpg" alt=""  class="hidden " id="pic-5">
-
-
-
-
-
         </div>
         <div id="Right" class=" w-[60%]  bg-white">
             <div class=" text-black  text-4xl  flex justify-center items-center w-full h-full pl-4">
                 <div class="flex flex-col gap-3 pl-">
                     <div class="font-bold uppercase hover:cursor-pointer" id="pic1">Muhammad Talal Aslam</div>
                     <div class="w-72 h-auto bg-yellow-400 flex items-center justify-center rounded uppercase hover:cursor-pointer" id="pic2">Web Desiginer </div>
-                    <div class="font-semibold uppercase hover:cursor-pointer" id="pic3">Profile</div>
-                    <div class="w-9 h-1 bg-yellow-500 rounded hover:cursor-pointer" id="pic4"></div>
-                    <div class=" text-xl hover:cursor-pointer" id="pic5">Passionate and dedicated, my journey is a fusion of skills and experiences. From project management to web design, I excel in bringing ideas to life. A tech-savvy problem solver with an eye for detail, I'm driven to deliver excellence. Let's connect to explore the possibilities</div>
+                    <div class="font-semibold uppercase" id="pic3">Profile</div>
+                    <div class="w-9 h-1 bg-yellow-500 rounded" id="pic4"></div>
+                    <div class=" text-xl" id="pic5">Passionate and dedicated, my journey is a fusion of skills and experiences. From project management to web design, I excel in bringing ideas to life. A tech-savvy problem solver with an eye for detail, I'm driven to deliver excellence. Let's connect to explore the possibilities</div>
                 </div>
             </div>
         </div>
@@ -281,45 +271,7 @@
             })
         })   
         
-        
 
-
-        $(document).ready(function(){
-            $('#pic3').click(function(){
-                $('#pic-2,#pic-1,#pic-4,#pic-5').css({
-                    'display':'none'
-                })
-                $('#pic-3').css({
-                    'display':'flex'
-                })
-
-
-            })
-        })     
-        $(document).ready(function(){
-            $('#pic4').click(function(){
-                $('#pic-2,#pic-3,#pic-1,#pic-5').css({
-                    'display':'none'
-                })
-                $('#pic-4').css({
-                    'display':'flex'
-                })
-
-
-            })
-        })     
-        $(document).ready(function(){
-            $('#pic5').click(function(){
-                $('#pic-2,#pic-3,#pic-4,#pic-1').css({
-                    'display':'none'
-                })
-                $('#pic-5').css({
-                    'display':'flex'
-                })
-
-
-            })
-        })     
     </script>
 </body>
 
